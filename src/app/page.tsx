@@ -13,29 +13,27 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Our Services"
+        title=" Why should you trust us "
       >
-        hey long
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle="Watch a video "
+        title="Our satisfied customer"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perferendis, 
+       enim consectetur quas eveniet in illum incidunt magni molestiae minima fuga quae nobis laborum error ullam hic quaerat laboriosam dolorum.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
         preTitle="Testimonials"
-        title="Here's what our customers said"
+        title="Here's what our students said"
       >
         Testimonials is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.

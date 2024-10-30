@@ -36,21 +36,24 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What services does your educational consultancy offer?",
+    answer: "We provide guidance for college admissions, career counseling, visa assistance, and support with application procedures for universities worldwide.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Do you help with scholarship applications?",
+    answer: "Yes, we assist students in identifying scholarship opportunities, completing applications, and providing tips to increase their chances of receiving financial aid.",
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "Which countries do you help students apply to?",
+    answer: "We work with institutions in popular study destinations, including the USA, UK, Canada, Australia, and various European and Asian countries.",
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "Can you help me choose the right course for my career goals?",
+    answer: "Absolutely. Our consultants assess your academic background, strengths, and career objectives to help you select the most suitable course and institution.",
+  },
+  {
+    question: "What are the costs associated with your services?",
+    answer: "Our service costs vary based on the level of assistance you need. We offer personalized consultations to discuss pricing and create a tailored plan that fits your budget.",
   },
 ];
+
