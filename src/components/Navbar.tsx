@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
-import Image from "next/image"
+import heroImg from "../../public/img/logome.png"
+import Image from "next/image";  
 import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
@@ -18,17 +19,19 @@ export const Navbar = () => {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+          <span className="flex items-center space-x-2 text-2xl font-medium text-[#5E415A]  dark:text-gray-100">
               <span>
-                <Image
-                  src="/img/logo.svg"
-                  width="32"
-                  alt="N"
-                  height="32"
-                  className="w-8"
-                />
+                 <Image
+              src={heroImg}
+              width="100"
+              height="100"
+              className={"object-cover"}
+              alt="Hero Illustration"
+              loading="eager"
+              placeholder="blur"
+            />
               </span>
-            <span>Nextly</span>
+            <span>NickSubash</span>
           </span>
         </Link>
 

@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .phone {
+    width: 300px;
+    height: 600px;
+    background: #000;
+    border-radius: 30px;
+    border: 10px solid #333;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .appList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .appIcon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #eaeaea;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .appIcon .icon {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .appIcon p {
+    font-size: 12px;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  
+  .appDemo {
+    text-align: center;
+  }
+  
+  .appDemo h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .appDemo p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
